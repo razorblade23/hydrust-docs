@@ -3,6 +3,10 @@
 # Welcome to the mission!
 Whether you're here to harden the Host Engine or expand the Guest Plugin ecosystem, here is your path to your first contribution:
 
+!!! info "Plugin only development"
+    You do not need to setup development enviroment if you are intrested in only building plugins.
+    Please follow [Plugin Developer Guide](./plugin/creating-plugin.md) for more information.
+
 # Set up development enviroment
 > Github repository:
 > https://github.com/razorblade23/hydrust.git
