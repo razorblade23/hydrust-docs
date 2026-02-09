@@ -22,7 +22,8 @@ Unlike traditional scrapers that rely on monolithic scripts, Hydrust utilizes a 
 
 | Section | Target Audience | Description |
 | :--- | :--- | :--- |
-| **[Getting Started](getting-started)** | Users / New Devs | How to compile the host and run your first download. |
+| **[Users start here](user/installation.md)** | Users / New Devs | How to compile the host and run your first 
+| **[Developers start here](dev/setup-dev-env.md)** | Users / New Devs | How to compile the host and run your first download. |
 | **[SDK Reference](sdk-reference)** | WASM Developers | Detailed guide on writing site plugins using the Hydrust SDK. |
 | **[WIT Specifications](wit-specs)** | Core Architects | The underlying interface definitions (World IDL) for Host calls. |
 | **[CDM & DRM Mounting](drm-mounting)** | Security Researchers | How the Host handles Content Decryption Modules and license requests. |

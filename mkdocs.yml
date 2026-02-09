@@ -1,6 +1,8 @@
 site_name: Hydrust Documentation
-site_url: https://yourusername.github.io/hydrust-docs/
+site_url: https://razorblade23.github.io/hydrust-docs/
 site_description: Technical manual for the Hydrust Media Engine
+repo_url: https://github.com/razorblade23/hydrust-docs
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -17,11 +19,33 @@ theme:
   icon:
     logo: material/engine
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - content.code.copy
-    - content.code.annotate
+    features:
+      - content.action.edit
+      - content.action.view
+      - content.code.annotate
+      - content.code.copy
+      # - content.code.select
+      # - content.footnote.tooltips
+      # - content.tabs.link
+      - content.tooltips
+      # - header.autohide
+      # - navigation.expand
+      - navigation.footer
+      - navigation.indexes
+      # - navigation.instant
+      # - navigation.instant.prefetch
+      # - navigation.instant.progress
+      # - navigation.prune
+      - navigation.sections
+      - navigation.tabs
+      # - navigation.tabs.sticky
+      - navigation.top
+      - navigation.tracking
+      - search.highlight
+      - search.share
+      - search.suggest
+      - toc.follow
+      # - toc.integrate
 
 markdown_extensions:
   - admonition
@@ -34,14 +58,14 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - 🚀 Getting Started: getting-started.md
-  - 🛠️ SDK & Architecture:
-    - Overview: sdk-overview.md
-    - WIT Specifications: wit-specs.md
-    - Plugin Lifecycle: lifecycle.md
-  - 🔐 Security & DRM:
-    - CDM Mounting: cdm-mounting.md
-    - Networking & Proxies: networking.md
-  - 🤝 Community:
-    - Contribution Guide: contributing.md
-    - Legal Disclaimer: legal.md
+  - User Documentation: 
+    - Installation: ./user/installation.md
+    - Quick Start Guide: ./user/quick-start.md
+  - Developer Documentation:
+    - Setting up a Development Environment: ./dev/setup-dev-env.md
+    - Core development: 
+      - Engine Architecture: ./dev/core/engine-architecture.md
+    - Plugin development:
+      - Plugin System Overview: ./dev/plugin/plugin-system-overview.md
+      - Creating a Plugin: ./dev/plugin/creating-plugin.md
+  - Community: community.md
