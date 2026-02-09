@@ -1,0 +1,47 @@
+site_name: Hydrust Documentation
+site_url: https://yourusername.github.io/hydrust-docs/
+site_description: Technical manual for the Hydrust Media Engine
+
+theme:
+  name: material
+  palette:
+    # Hydrust Dark Mode - High Contrast for Devs
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      accent: orange
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: deep orange
+  icon:
+    logo: material/engine
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+nav:
+  - Home: index.md
+  - 🚀 Getting Started: getting-started.md
+  - 🛠️ SDK & Architecture:
+    - Overview: sdk-overview.md
+    - WIT Specifications: wit-specs.md
+    - Plugin Lifecycle: lifecycle.md
+  - 🔐 Security & DRM:
+    - CDM Mounting: cdm-mounting.md
+    - Networking & Proxies: networking.md
+  - 🤝 Community:
+    - Contribution Guide: contributing.md
+    - Legal Disclaimer: legal.md
