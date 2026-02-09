@@ -26,13 +26,17 @@ Ideal for fixing typos, updating WIT definitions, or adding small notes.
 5.  This will create a Pull Request (PR) for review.
 
 ### Option B: The "Deep Link" (Local Development)
+> [!NOTE]
+> We use [uv]() for dependancy managment
+> If you wish to run local preview server, you need to install `uv`.
+
 Ideal for writing entire new sections or restructuring the SDK reference.
 1.  **Clone the repository:**
-    `git clone https://github.com/yourusername/hydrust-docs.git`
+    `git clone https://github.com/razorblade23/hydrust-docs.git`
 2.  **Install dependencies:**
-    `pip install mkdocs-material`
+    `uv sync`
 3.  **Run the local preview server:**
-    `mkdocs serve`
+    `uv run mkdocs serve`
 4.  View your changes in real-time at `http://127.0.0.1:8000`.
 
 ---
@@ -61,4 +65,4 @@ To maintain "High Performance" documentation, follow these constraints:
 
 ---
 
-**Questions?** Reach out in the `#docs-and-wiki` channel on the [Hydrust Discord](https://discord.gg/YOUR_LINK).
+**Questions?** Reach out in the `#docs-and-wiki` channel on the [Hydrust Discord](https://discord.gg/uX4EFqD6ew).
