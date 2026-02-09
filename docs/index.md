@@ -4,6 +4,8 @@
 
 ---
 
+> This documentation is under heavy development and it is not in any way complete or representative
+
 ## 🏗️ The Hydrust Paradigm
 
 Unlike traditional scrapers that rely on monolithic scripts, Hydrust utilizes a **Host-Guest Architecture**. This separates the volatile logic of site-specific scraping from the high-performance stability of the media engine.
