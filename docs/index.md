@@ -4,7 +4,7 @@
 
 ---
 
-> This documentation is under heavy development and it is not in any way complete or representative
+> This documentation is under heavy development and it is not in any way complete or representative.
 
 ## 🏗️ The Hydrust Paradigm
 
