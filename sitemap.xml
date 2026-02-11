@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://razorblade23.github.io/hydrust-docs/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://razorblade23.github.io/hydrust-docs/community/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://razorblade23.github.io/hydrust-docs/dev/setup-dev-env/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://razorblade23.github.io/hydrust-docs/dev/core/engine-architecture/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://razorblade23.github.io/hydrust-docs/dev/plugin/creating-plugin/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://razorblade23.github.io/hydrust-docs/dev/plugin/plugin-system-overview/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://razorblade23.github.io/hydrust-docs/user/installation/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://razorblade23.github.io/hydrust-docs/user/quick-start-guide/</loc>
+         <lastmod>2026-02-11</lastmod>
+    </url>
+</urlset>
