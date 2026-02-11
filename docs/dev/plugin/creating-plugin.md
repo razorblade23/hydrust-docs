@@ -19,11 +19,7 @@ Communication happens over the **WIT (WebAssembly Interface Type)** layer, ensur
 To build Hydrust plugins, you need the following tools installed on your development machine:
 
 1. Rust Toolchain: [Install Rust](https://rustup.rs/)
-2. Add WASM Target: 
-    ```bash
-    rustup target add wasm32-wasip1
-    ```
-3. Add Hydrust CLI (Optional but Recommended): Our tooling automates the scaffolding of new plugins.
+2. Add Hydrust CLI (Optional but Recommended): Our tooling automates the scaffolding of new plugins.
     ```bash
     cargo install hydrust-cli
     ```
@@ -44,10 +40,11 @@ Every plugin must implement the interfaces defined in our `provider.wit` file. T
 
 ## 🚀 Quick Start
 
-### Create a new project
+### Create and initialize new project
 ```bash
 cargo new --lib my-hydrust-plugin
 cd my-hydrust-plugin
+cargo install cargo-component
 ```
 
 ### Configure `Cargo.toml`
@@ -96,6 +93,6 @@ To compile your plugin run the following command:
 cargo component build --release
 ```
 
-This will produce a binary in your `./target/wasm32-wasip1/release` directory with an extension `.wasm`.
+This will produce a binary in your `./target/wasm32-wasip1/release` directory with a file extension `.wasm`.
 
 This is all you need to load it into **Hydrust**
